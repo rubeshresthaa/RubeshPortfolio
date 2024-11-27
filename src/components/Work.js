@@ -14,7 +14,7 @@ const Work = () => {
           viewport={{once:false, amount:0.3 }}  className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
             <div>
               <h2 className='h2 leading-tight text-accent'>My Latest Work.</h2>
-              <p className='max-w-sm mb-16'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eum?</p>
+              <p className='max-w-sm mb-16'>You can check all my project given down the link </p>
               <Link to='services'><button className='btn btn-sm'>View All Projects</button></Link>
             </div>
             {/* <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>

@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import image from '../assets/file.png';
+import { Link } from 'react-scroll';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -79,12 +80,10 @@ const About = () => {
 
             {/* Call-to-Actions */}
             <div className="flex gap-x-6 items-center">
-              <button className="btn btn-lg bg-blue-500 text-white hover:bg-blue-600 transition duration-300">
+             <Link to='contact'><button className="btn btn-lg bg-blue-500 text-white hover:bg-blue-600 transition duration-300">
                 Contact Me
-              </button>
-              <button className="text-gradient btn-link font-medium">
-                My Portfolio
-              </button>
+              </button></Link>
+              
             </div>
           </motion.div>
         </div>
