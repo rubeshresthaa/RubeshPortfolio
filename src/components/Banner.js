@@ -48,7 +48,7 @@ const Banner = () => {
               <Link to='contact'><button className="btn btn-lg outline-none">Contact me</button></Link>
               
               <a
-    href="/RubeshResume.pdf"
+    href="/RubeshCV.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="text-gradient btn-link"
@@ -56,8 +56,8 @@ const Banner = () => {
     My Resume
   </a>
                <a
-                  href="/RubeshResume.pdf"
-                  download="RubeshResume.pdf"
+                  href="/RubeshCV.pdf"
+                  download="RubeshCV.pdf"
                   className="text-gradient btn-link"
                 >
                 Download Resume

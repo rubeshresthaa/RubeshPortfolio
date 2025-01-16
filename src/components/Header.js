@@ -22,7 +22,7 @@ const Header = () => {
             My Resume
           </button> */}
             <a
-    href="/RubeshResume.pdf"
+    href="/RubeshCV.pdf"
     target="_blank"
     rel="noopener noreferrer"
     className="text-gradient btn-link"
