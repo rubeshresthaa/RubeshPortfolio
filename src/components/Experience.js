@@ -40,6 +40,7 @@ const Experience = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent mb-4">Experience</h2>
+            <h3>Mern Stack Intern</h3>
             <a href="https://mindriserstech.com/" target="_blank" rel="noreferrer"><span className='underline text-blue-400'>Mindrisers</span> Technology, Putalisadak, Kathmandu</a>
             <h3 className="h3 mb-6">February 13,2025 - May 14, 2025</h3>
             <ul className="mb-8 text-gray-600 leading-relaxed list-disc px-2 md:px-0">
