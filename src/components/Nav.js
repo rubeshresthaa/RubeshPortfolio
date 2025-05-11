@@ -1,6 +1,8 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs';
+import { CgWorkAlt } from "react-icons/cg";
+
 import { Link } from 'react-scroll';
 
 const Nav = () => {
@@ -53,6 +55,16 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsChatSquare />
+          </Link>
+          <Link
+            to="experience"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <CgWorkAlt />
+
           </Link>
         </div>
       </div>

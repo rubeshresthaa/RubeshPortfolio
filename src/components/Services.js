@@ -4,11 +4,30 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const services = [
+    {
+    name: 'Website For Express Tech',
+    description: 'Developed a responsive website using RTK query and tailwind CSS for Ui design. Focused on seamless data flow, component reusability, and creating an intuitive user interface with optimized performance. I used ReactJs for frontend and ExpressJS and MongoDB for backend.',
+    link: 'Project Link',
+    href:' https://express-t-ech.vercel.app/'
+  },
+
   {
     name: 'Clone Of Codepen',
     description: 'Built a CodePen clone using ReactJS, enabling users to write and preview HTML, CSS, and JavaScript code in real time. Implemented features like syntax highlighting, live preview, and separate code editors, and efficient state management.',
     link: 'Project Link',
     href:' https://codepen-teal.vercel.app/'
+  },
+    {
+    name: 'Project based on Redux',
+    description: 'Developed a responsive website using Redux for state management and Material Tailwind for modern UI design. Focused on seamless data flow, component reusability, and creating an intuitive user interface with optimized performance. I used ReactJs for frontend and ExpressJS and MongoDB for backend.',
+    link: 'Github Link',
+    href:'https://github.com/rubeshresthaa/RTK '
+  },
+  {
+    name: 'Pawstore using RTK Query',
+    description: 'Developed a website using RTK query and tailwind CSS for UI design. Focused on seamless data flow, component reusability, and creating an intuitive user interface with optimized performance. I used ReactJs for frontend and ExpressJS and MongoDB for backend.',
+    link: 'Github Link',
+    href:' https://github.com/rubeshresthaa/ProjectFront'
   },
   {
     name: 'Blog CRUD Project ',
@@ -22,30 +41,14 @@ const services = [
     link: 'Project Link',
     href:'https://todo-list-kappa-lake.vercel.app/'
   },
-  {
-    name: 'Project based on Redux',
-    description: 'Developed a responsive website using Redux for state management and Material Tailwind for modern UI design. Focused on seamless data flow, component reusability, and creating an intuitive user interface with optimized performance. I used ReactJs for frontend and ExpressJS and MongoDB for backend.',
-    link: 'Github Link',
-    href:'https://github.com/rubeshresthaa/RTK '
-  },
-  {
-    name: 'Pawstore using RTK Query',
-    description: 'Developed a website using RTK query and tailwind CSS for UI design. Focused on seamless data flow, component reusability, and creating an intuitive user interface with optimized performance. I used ReactJs for frontend and ExpressJS and MongoDB for backend.',
-    link: 'Github Link',
-    href:' https://github.com/rubeshresthaa/ProjectFront'
-  },
-  {
-    name: 'Website For Express Tech',
-    description: 'Developed a responsive website using RTK query and tailwind CSS for Ui design. Focused on seamless data flow, component reusability, and creating an intuitive user interface with optimized performance. I used ReactJs for frontend and ExpressJS and MongoDB for backend.',
-    link: 'Project Link',
-    href:' https://express-t-ech.vercel.app/'
-  },
+
+
   
 ];
 
 const Services = () => {
   return (
-    <section className="section mt-96" id="services">
+    <section className="section mt-5 md:mt-96 px-10" id="services">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* Text Section */}
